@@ -72,15 +72,15 @@ insert into addressbook values('Rajesh','Pamarthi','Pedavegi','Eluru','Andhra Pr
 insert into addressbook values('Mallesh','Uma','Lingagudem','Chintalapudi','Andhra Pradesh',531239,7356412890,'umamallesh@gmail.com');
 
 mysql> select* from addressbook;
-+-----------+------------+-------------+-----------+-----------+--------+-----------+-------------------+
-| firstname | lastname   | address     | city      | state     | zip    | phone_num | email             |
-+-----------+------------+-------------+-----------+-----------+--------+-----------+-------------------+
-| Sunil     | Gollapalli | Uppal       | Hyderabad | Telangana | 500039 |  98745612 | sunil@gmail.com   |
-| Subbu     | Gollapalli | Jangaon     | Warangal  | Telangana | 506167 |  89645123 | subhash@gmail.com |
-| Srenadh   | Gudi       | Kammam      | Kammam    | Telangana | 504768 |  45612398 | srinadh@gmail.com |
-| Uday      | Nalla      | Ramanthapur | Hyd       | Telangana | 500041 |  78945623 | uday@gmail.com    |
-| Venu      | Reddy      | colva       | Colagette | Goa       | 506484 |  56892347 | venu@gmail.com    |
-+-----------+------------+-------------+-----------+-----------+--------+-----------+-------------------+
++--------------+------------+----------------+--------------+----------------+--------+------------+-----------------------------------+
+| firstname    | lastname   | address        | city         | state          | zip    | phone_num  | email                             |
++--------------+------------+----------------+--------------+----------------+--------+------------+-----------------------------------+
+| Rama krishna | Velisetti  | Telaprolu      | Vijayawada   | Andhra Pradesh | 521109 | 8125348769 | ramakrishna31.velisetti@gmail.com |
+| Naga babu    | Pakki      | Veleru         | Hjunction    | Andhra Pradesh | 521105 | 9630254187 | nagababu.pakki@gmail.com          |
+| Venki        | Mattakunta | Pondugula      | Mylavaram    | Andhra Pradesh | 521119 | 9182576302 | venki.m@gmail.com                 |
+| Rajesh       | Pamarthi   | Pedavegi       | Eluru        | Andhra Pradesh | 531129 | 8529637014 | pamarthi.rajesh@gmail.com         |
+| Mallesh      | Uma        | Lingagudem     | Chintalapudi | Andhra Pradesh | 531239 | 7356412890 | umamallesh@gmail.com              |
++--------------+------------+----------------+--------------+----------------+--------+------------+-----------------------------------+
 5 rows in set (0.00 sec)
 
 -------------------------------------------------------------------------------------------------------
